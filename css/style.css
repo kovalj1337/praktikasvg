@@ -1,0 +1,52 @@
+.border{
+    border: 2px dashed #ccc;
+    background-color: #fff;
+    transition: all 3s ease;
+    animation: sky 10s linear 1s alternate infinite;
+}
+.sun circle{
+    fill: #fcad3a;
+    animation: sun 10s ease-in-out 1s alternate infinite;
+}
+.zsuv{
+    animation: zsuv 20s ease-in-out 1s alternate infinite;
+}
+@keyframes sky{
+    0%{
+        /* transform: translate( 0, 0); */
+        background-color: #fff;
+    }
+    50%{
+        background-color: darkblue;
+    }
+    100%{
+        background-color: black;
+    }
+}
+@keyframes sun {
+    0%{
+        fill: #fcad3a;
+        transform: translate( 0, 0);
+    }
+    50%{
+        fill: darkred;
+        transform: translate(50px, 200px);
+    }
+    70%{
+        fill: #fff;
+        transform: translate(150px, 0px);
+    }
+    100%{
+        fill: #fff;
+        transform: translate(60px, 0px);
+    }
+}
+@keyframes zsuv {
+    0%,
+    100%{
+        transform: translate(0, 0);
+    }
+    50%{
+        transform: translate(-45px,0);
+    }
+}

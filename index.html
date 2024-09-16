@@ -1,31 +1,44 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Document</title> 
-</head> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
 <body>
-    <svg width="200" height="200px" viewbox="0 0 100 100">
+    <svg class="border" width="200" height="200px" viewbox="0 0 100 100">
+        <g>
+            <g class="sun">
+                <circle r="10" cx="20" cy="20" fill="" stroke-linejoin="round" />
+            </g>
+            <g class="zsuv">
+                <g class="treethree">
+                    <line x1="87" y1="65" x2="87" y2="40" stroke="#7fdc48" stroke-linecap="round" stroke-width="20" />
+                    <line x1="87" y1="85" x2="87" y2="70" stroke="#6c4127" stroke-width="3" />
+                </g>
+                <g class="treetwo">
+                    <line x1="59" y1="65" x2="59" y2="30" stroke="#46a655" stroke-linecap="round" stroke-width="20" />
+                    <line x1="59" y1="90" x2="59" y2="60" stroke="#6c4127" stroke-width="3" />
+                    <line x1="59" y1="70" x2="54" y2="65" stroke="#6c4127" stroke-width="3" />
+                </g>
+                <g class="treeone">
+                    <line x1="73" y1="65" x2="73" y2="20" stroke="#b7f07d" stroke-linecap="round" stroke-width="20" />
+                    <line x1="73" y1="85" x2="73" y2="47" stroke="#6c4127" stroke-width="3" />
+                    <line x1="78" y1="65" x2="73" y2="70" stroke="#6c4127" stroke-width="3" />
+                    <line x1="68" y1="65" x2="73" y2="70" stroke="#6c4127" stroke-width="3" />
+                    <line x1="68" y1="52" x2="73" y2="58" stroke="#6c4127" stroke-width="3" />
+                </g>
+            </g>
+            <g class="grass">
+                <rect width="95" height="17" fill="#7fdc48" x="2.5" y="81" rx="0" ry="0" />
+            </g>
+        </g>
         <!-- <path d="M20, 70, 50, 30 80, 70" file="none" stroke-width="20" stroke-linejoin="round"/> -->
-        <line x1="87" y1="50" x2="87" y2="40" stroke="#7fdc48" stroke-linecap="round" stroke-width="20"/>
-        <line x1="59" y1="50" x2="59" y2="30" stroke="#46a655" stroke-linecap="round" stroke-width="20"/>
-        <line x1="73" y1="50" x2="73" y2="20" stroke="#b7f07d" stroke-linecap="round" stroke-width="20"/>
-        <line x1="87" y1="80" x2="87" y2="55" stroke="#6c4127" stroke-width="3" /> 
-        <line x1="73" y1="80" x2="73" y2="35" stroke="#6c4127" stroke-width="3" /> 
-        <line x1="78" y1="48" x2="73" y2="53" stroke="#6c4127" stroke-width="3" /> 
-        <line x1="68" y1="48" x2="73" y2="54" stroke="#6c4127" stroke-width="3" />
-        <line x1="68" y1="38" x2="73" y2="44" stroke="#6c4127" stroke-width="3" />
-        <line x1="59" y1="80" x2="59" y2="45" stroke="#6c4127" stroke-width="3" /> 
-        <line x1="59" y1="55" x2="54" y2="50" stroke="#6c4127" stroke-width="3" />
-        <rect width="200" 
-        height="13" 
-        fill="#7fdc48" 
-        x="30" 
-        y="70" 
-        rx="0" 
-        ry="0" /> 
-        <circle r="7" cx="40" cy="20" fill="#fcad3a" stroke-linejoin="round"/>
-    </svg> 
-</body> 
+
+    </svg>
+</body>
+
 </html>
